@@ -1,7 +1,6 @@
 import axios from "axios";
 import { create } from "zustand";
 import { axiosInstance } from "../lib/axios";
-import { signup } from "../../../backend/src/controllers/auth.controller";
 
 
 export const useAuthStore=create((set)=>({
